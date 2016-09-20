@@ -20,53 +20,7 @@ html {
     font-family: 'Bodoni MT', 'Didot LT STD', 'Book Antiqua', 'Times New Roman', serif;
 }
 
-h1 a {
-    text-decoration: none;
-    font-size: 1.5em;
-    color: #4a4a4a;
-    line-height: .75em;
-}
-
-.linkhover {
-    height: 15px;
-    width: 60px;
-    background-color: #C2ABD5;
-}
-
-.navhr {
-    width: 50px;
-}
-
-.articlehr {
-    margin-top: 75px;
-}
-
-a.label {
-    text-decoration: none;
-    color: #4a4a4a;
- 
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-    color: #4a4a4a;
-    line-height: 2em;
-}
-
-
-h2 {
-    padding-top: 30px;
-}
-
-.first {
-    padding-top: 0px;
-}
-
-p {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
+/* navigation styles */
 
 .sidenav {
     text-decoration: none;
@@ -86,12 +40,52 @@ p {
     left: 7%;
     z-index: -2;
 }
+
+h1 a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #4a4a4a;
+    line-height: .75em;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #4a4a4a;
+    line-height: 2em;
+}
+
+a.label {
+    text-decoration: none;
+    color: #4a4a4a;
+ 
+}
+
+a:hover {
+    color: #FF4531;
+    font-weight: bold;
+}
+
+.navhr {
+    width: 50px;
+}
+
 /* front page collage styles*/
+
+h2 {
+    padding-top: 30px;
+}
+
+.articlehr {
+    margin-top: 75px;
+    border-top: 1px solid #FF4531;
+}
+
 .collage1 {
     position: relative;
     width:  66.6%;
     float: left;
-    padding: 40px 30px 40px 0px;
+    padding: 40px 30px 10px 0px;
 }
 
 .collage1 img:nth-of-type(-n+2) {
@@ -133,124 +127,97 @@ p {
 }
 
 .collage2 img:nth-of-type(-n+3) {
-    width:  30%;
+    width:  30.5%;
     float:  left;
-    margin-right: 3%
+}
+
+.carlo {
+    margin-right: 4%
+}
+
+.fairy {
+    margin-right: 4%
 }
 
 .morte {
-    width: 25%;
+    width: 33%;
     float:  left;
+    margin-top: 4%;
+    margin-right: 4%;
 }
 
 .disney {
-    width: 60%;
-    float:  left;
-}
-/* .collage2 img:nth-of-type(n+4) {
-    width:  48%;
-    float: left;
-    margin-right: 4%;
-    margin-top: 4%;
-} */
-
-/* .collage2 img:nth-of-type(5) {
-    width:  60%;
+    width: 62.5%;
     float:  left;
     margin-top: 4%;
-} */
-
-/* hover styles */
-.sigmar:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
 }
 
-.stanislawa:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
-}
+/* third collage
+ */
 
-.drawing:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
-}
-
-.oroboro:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
-}
-
-.society:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
-}
-
-.scissors:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
-}
-
-/* Page 2 Styles */
-
-.sidebararticle {
-    width: 25%;
-    float: left;
-    padding: 40px 30px 20px 60px;
-}
-
-.sidebararticle img:nth-of-type(3) {
-    left: 35%;
-    top: 40%;
-}
-.articletext {
-    float: left;
-}
-
- .sidenav2 {
-    font-size: .5em;
-    padding: 40px 30px 20px 60px;
- }
-
-.article {
-    width: 66.6%;
+.collage3 {
     position: relative;
+    width:  66.6%;
     float: right;
     padding: 0px 30px 40px 0px;
 }
 
-.articleimage {
-    width: 400px;
+.sojourner {
+    margin-right: 4%;
+    width:  33%;
+    height: 420px;
 }
 
-/* footer styles*/
- footer {
-    background-color: #4A4A4A;
-    color: white;
-    clear: both;
-    padding: 50px 20px 50px 20px;
-    text-align: center;
+.currency {
+    width: 62.5%;
+
+    height: 420px;
 }
 
-/* alt page styles */
 
-.header {
+.collage3 img:nth-of-type(n+3) {
+    width:  30.5%;
+    float:  left;
+    margin-top:  4%;
+} 
+
+.carte {
+
+    height: 510px;
+    margin-right: 4%;
+}
+
+.disderi {
+    height: 510px;
+    margin-right: 4%;
+}
+
+/* image hover styles */
+
+.collage1 img, 
+.collage2 img,
+.collage3 img {
+    transition: all .5s ease-in-out;
+    box-shadow:  0;
+    -webkit-transform: translateX(0);
+    transform:  translateX(0);
+
+}
+
+.collage1 img:hover, 
+.collage2 img:hover,
+.collage3 img:hover {
+    box-shadow: 5px 5px #FF4531;
+    -webkit-transform: translateX(-3px);
+    transform:  translateX(-3px);
+}
+
+/* Second page styles */
+
+.header1 {
   height: 350px;
   background: url('../img/vol1/facehand.png');
   background-size: cover;
-/*   margin: 0 auto; */
   background-attachment: fixed;
 }
 
@@ -262,11 +229,28 @@ p {
 
 .images img {
     width: 400px;
-    padding-bottom: 80px;
 }
 
-.image2 {
+p {
+    padding-bottom: 15px;
+}
 
+h3 {
+    padding-bottom:  80px;
+    font-size: .75em; 
+}
+
+.captiontitle {
+    font-style: italic;
+}
+
+.societyside {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .25);
+    
+}
+
+.images img:nth-of-type(2) {
+    margin-top: 40px;
 }
 
 .articletext {
@@ -293,6 +277,25 @@ p.intro:first-letter {
  color : #FF4531;
  padding-right: 10px;
  }
+
+/* page 3 styles */
+
+.header2 {
+  height: 350px;
+  background: url('../img/vol2/pinocchio_1940.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* footer styles*/
+ footer {
+    background-color: #4A4A4A;
+    color: white;
+    clear: both;
+    padding: 50px 20px 50px 20px;
+    text-align: center;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

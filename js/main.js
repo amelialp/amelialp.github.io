@@ -1,7 +1,4 @@
-// $(‘.sidenav’).hover(function(){
-//   $(this).toggleClass(‘linkhover’);}
-// );
-$('.navlink').on('hover', function(){
-  $('navlink').toggleClass('linkhover');
-
-});
+// $(".navlink").hover(function () {
+//     $(".navlink").toggleClass("linkhover");
+//     console.log('linkhoveradded');
+//  });
